@@ -1,6 +1,6 @@
 # 💻 Dev Prasath RP – Portfolio
 
-![Portfolio Banner](https://drive.google.com/file/d/1v35mkiS9Eo7123UQ25A4527atDDQVS2v/view?usp=drive_link)
+![Portfolio Banner](public/2.png)
 
 ## Hi, I’m Dev 👋
 I’m a **passionate Full-Stack Developer** specializing in **React, Node.js, GoLang, and PostgreSQL**. I build **scalable, high-performance web applications** with clean code and thoughtful architecture.
