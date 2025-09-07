@@ -1,12 +1,61 @@
-# React + Vite
+# 💻 Dev Prasath RP – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Banner](https://drive.google.com/file/d/1v35mkiS9Eo7123UQ25A4527atDDQVS2v/view?usp=drive_link)
 
-Currently, two official plugins are available:
+## Hi, I’m Dev 👋
+I’m a **passionate Full-Stack Developer** specializing in **React, Node.js, GoLang, and PostgreSQL**. I build **scalable, high-performance web applications** with clean code and thoughtful architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+| Frontend | Backend | Database | Tools |
+|----------|--------|---------|-------|
+| React.js, Tailwind CSS, HTML, CSS, JavaScript | Node.js, Express.js, GoLang | PostgreSQL, MS SQL | Git, GitHub, Vite, Postman, VSCode |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Projects
+
+### 1. **BookNGo – Event Booking Platform**
+- Users can browse events, book tickets, and view booking history.  
+- Admins can create events and manage all bookings.  
+- **Tech:** React, Node.js, PostgreSQL, Tailwind CSS  
+- **Repo:** ([Frontend](https://github.com/PrAsAnTh28402/BookNGo_Frontend)) | ([Backend](https://github.com/PrAsAnTh28402/BookNGo_Backend))
+
+
+### 2. **Portfolio Website**
+- Personal portfolio to showcase projects and skills.  
+- **Tech:** React, Tailwind CSS, Vite  
+
+
+---
+
+## 🌟 Key Highlights
+- 10+ months of professional experience in **full-stack development**  
+- Strong understanding of **REST APIs, database management, and UI/UX principles**  
+- Designed and implemented **scalable architectures** and **high-performance applications**  
+- Enthusiastic about learning **new technologies and building real-world projects**  
+
+---
+
+## 📂 Portfolio Sections
+- **Hero:** Landing page with intro and CTA  
+- **About Me:** Summary of skills and experience  
+- **Skills:** Technical stack overview with icons  
+- **Projects:** Screenshots and descriptions of major projects  
+- **Contact:** Email, LinkedIn, GitHub  
+
+---
+
+## 📫 Contact Me
+- **Email:** dev.prasath2842@gmail.com  
+- **LinkedIn:** ([linkedin.com/in/devprasath](https://www.linkedin.com/in/dev-prasath-rp/))  
+
+---
+
+## ⚡ Fun Fact
+> “I love building things that people actually use. Code is my playground, and problem-solving is my superpower!”  
+
+---
+
+Made with ❤️ using **React, Tailwind CSS, and Vite**
