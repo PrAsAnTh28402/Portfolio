@@ -1,4 +1,4 @@
-import "../styles/about.css";
+import "../Styles/About.css";
 import profileImg from "../../public/me2.jpg"
 
 export default function About() {
