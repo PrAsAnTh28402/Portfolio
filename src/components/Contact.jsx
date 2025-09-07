@@ -1,4 +1,4 @@
-import "../styles/Contact.css";
+import "../Styles/Contact.css";
 import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
 import { useState } from "react";
 
