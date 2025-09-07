@@ -1,0 +1,39 @@
+.about-section {
+  @apply flex flex-col md:flex-row items-center max-w-6xl mx-auto py-20 px-6 gap-12 relative;
+}
+
+.about-left {
+  @apply md:flex-1 text-left;
+}
+
+.about-title {
+  @apply text-4xl font-bold mb-6 text-gray-900;
+}
+
+.about-text {
+  @apply text-lg text-gray-800 mb-6 leading-relaxed;
+}
+
+.about-list {
+  @apply list-none flex flex-col gap-3 text-gray-700;
+}
+
+.about-list li::before {
+  @apply content-['💡'] mr-2; /* optional icons before each item */
+}
+
+.about-right {
+  @apply md:flex-1 flex justify-center items-center;
+}
+
+.about-photo {
+  @apply w-64 h-64 md:w-80 md:h-80 rounded-full shadow-xl object-cover;
+  object-position: top center; /* focuses more on upper part of image */
+}
+
+
+/* Subtle floating shape behind photo */
+.about-section::before {
+  content: '';
+  @apply absolute w-56 h-56 rounded-full bg-indigo-50 opacity-30 blur-2xl top-0 right-0 z-[-1];
+}

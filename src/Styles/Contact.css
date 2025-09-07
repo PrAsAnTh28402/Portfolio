@@ -1,0 +1,62 @@
+.contact-section {
+  @apply max-w-7xl mx-auto py-24 px-6 text-left bg-white;
+}
+
+.contact-container {
+  @apply flex flex-col md:flex-row gap-12;
+}
+
+.contact-subtitle {
+  @apply text-xl font-semibold mb-4 text-gray-900;
+}
+
+.contact-info {
+  @apply md:w-1/2 flex flex-col gap-3;
+}
+
+.contact-item {
+  @apply flex items-center text-gray-700 text-sm md:text-base;
+}
+
+.contact-icon {
+  @apply mr-3 text-blue-600;
+}
+
+.contact-item a {
+  @apply text-blue-700 hover:underline;
+}
+
+.contact-form {
+  @apply md:w-1/2;
+}
+
+.contact-form form {
+  @apply flex flex-col gap-4;
+}
+
+.contact-form input,
+.contact-form textarea {
+  @apply border border-gray-300 rounded-lg px-4 py-2 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.btn-submit {
+  @apply bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors;
+}
+
+.success-msg {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

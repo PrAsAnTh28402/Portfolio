@@ -1,0 +1,73 @@
+.hero-section {
+  @apply relative min-h-screen flex flex-col justify-center items-center px-6 bg-white overflow-hidden;
+}
+
+/* Optional: subtle gradient overlay (white + slight blue) */
+.hero-section::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-br from-white via-blue-50 to-white opacity-40;
+  z-index: -1;
+}
+
+/* Floating blurred circles for subtle design */
+.hero-section::after {
+  content: '';
+  @apply absolute w-72 h-72 rounded-full bg-blue-100 opacity-30 blur-3xl top-[-10%] left-[-10%] z-[-1];
+}
+
+.hero-title {
+  @apply text-5xl md:text-7xl font-extrabold mb-6 leading-tight text-gray-900;
+}
+
+.hero-subtitle {
+  @apply text-lg md:text-2xl max-w-2xl text-gray-800 mb-8;
+}
+
+.hero-buttons {
+  @apply flex gap-5 flex-wrap justify-center;
+}
+
+/* ---------------- Buttons ---------------- */
+
+/* Base button styles */
+.btn {
+  @apply font-medium shadow-lg hover:shadow-xl hover:scale-105 
+         transition-transform duration-300 rounded-xl 
+         flex items-center justify-center gap-2;
+  @apply min-w-[180px] h-[52px] px-7; /* Equal width & height */
+}
+
+/* Primary button (Projects) */
+.btn-primary {
+  @apply bg-gradient-to-r from-blue-600 to-indigo-600 text-white;
+}
+
+/* Outline button (Contact Me) */
+.btn-outline {
+  @apply border-2 border-blue-600 text-blue-600 hover:bg-blue-50;
+}
+
+/* LinkedIn button */
+.btn-linkedin {
+  @apply bg-gradient-to-r from-blue-600 to-indigo-600 text-white;
+}
+
+/* GitHub button */
+.btn-github {
+  @apply bg-gradient-to-r from-blue-600 to-indigo-600 text-white;
+}
+
+/* Icon inside buttons */
+.icon {
+  @apply w-5 h-5;
+}
+
+/* ---------------- Scroll Down Indicator ---------------- */
+.scroll-down {
+  @apply mt-10 text-gray-500 text-2xl animate-bounce;
+}
+
+.scroll-down svg {
+  @apply w-6 h-6 text-gray-600;
+  stroke-width: 2.5;
+}

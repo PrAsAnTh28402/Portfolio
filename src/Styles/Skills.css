@@ -1,0 +1,42 @@
+.skills-section {
+  @apply max-w-6xl mx-auto py-24 px-6 text-center relative bg-white;
+}
+
+.skills-title {
+  @apply text-4xl font-bold mb-4 text-gray-900;
+}
+
+.skills-subtitle {
+  @apply text-lg text-gray-700 mb-12;
+}
+
+.skills-grid {
+  @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 justify-items-center;
+}
+
+.skill-card {
+  @apply flex flex-col items-center transition-transform duration-300 hover:scale-105;
+}
+
+.logo-circle {
+  @apply w-20 h-20 flex items-center justify-center rounded-full bg-blue-50 shadow-md mb-3 transition-shadow duration-300 hover:shadow-xl;
+}
+
+.skill-logo {
+  @apply w-10 h-10;
+}
+
+.skill-name {
+  @apply text-gray-900 font-semibold text-sm sm:text-base;
+}
+
+/* subtle background blur behind skills */
+.skills-section::before {
+  content: '';
+  @apply absolute w-72 h-72 rounded-full bg-blue-50 opacity-20 blur-3xl top-[-5%] left-[-5%] z-[-1];
+}
+
+.skills-section::after {
+  content: '';
+  @apply absolute w-72 h-72 rounded-full bg-blue-50 opacity-20 blur-3xl bottom-[-5%] right-[-5%] z-[-1];
+}
