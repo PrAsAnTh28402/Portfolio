@@ -1,4 +1,4 @@
-import "../styles/skills.css";
+import "../styles/Skills.css";
 
 const skills = [
   { name: "C++", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
