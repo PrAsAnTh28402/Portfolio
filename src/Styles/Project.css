@@ -68,3 +68,42 @@
   @apply bg-yellow-500 text-white px-5 py-2 rounded-full font-semibold 
          hover:bg-yellow-600 transition-colors shadow;
 }
+
+.project-image-container {
+  @apply relative w-full md:w-1/2 flex flex-col items-center justify-center;
+  padding: 1rem; /* optional container padding */
+  background: none; /* remove any background */
+}
+
+.project-image {
+  @apply object-contain max-w-full max-h-64 md:max-h-80 transition-transform duration-300 ease-in-out;
+  background: none; /* ensure no background on image itself */
+}
+
+.project-card.landscape:hover .project-image {
+  @apply scale-105;
+}
+
+.project-more-info {
+  @apply bg-blue-600 text-white px-4 py-2 rounded-full font-semibold shadow-lg 
+         hover:bg-blue-700 transition-all duration-300 cursor-pointer;
+  margin-top: 25px; /* space below logo */
+}
+
+.project-card.landscape {
+  @apply flex flex-col md:flex-row bg-white rounded-2xl shadow-lg overflow-hidden
+         border border-gray-300 hover:border-blue-400 
+         transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl;
+}
+
+/* Vertical separator line for landscape cards */
+.project-image-container::after {
+  content: '';
+  @apply hidden md:block; /* only on desktop */
+  position: absolute;
+  top: 10%; /* slightly inset from top */
+  bottom: 10%; /* slightly inset from bottom */
+  right: 0;
+  width: 2px; /* thickness of the line */
+  background-color: #c0c0c0; /* slightly darker gray */
+}
