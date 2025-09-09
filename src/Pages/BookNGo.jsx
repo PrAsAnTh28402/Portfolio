@@ -173,9 +173,9 @@ export default function BookNGo() {
         </p>
         <div className="grid md:grid-cols-3 gap-8">
           {[
-            { title: "Class Diagram", src: "/public/Signup_Class.png" },
-            { title: "Sequence Diagram", src: "/public/Signup_Sequence.png" },
-            { title: "Pseudocode Flow", src: "/public/Pseudo.png" },
+            { title: "Class Diagram", src: "/Signup_Class.png" },
+            { title: "Sequence Diagram", src: "/Signup_Sequence.png" },
+            { title: "Pseudocode Flow", src: "/Pseudo.png" },
           ].map((item, i) => (
             <div
               key={i}
@@ -207,7 +207,7 @@ export default function BookNGo() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           <div className="relative group bg-white shadow rounded-lg overflow-hidden">
             <img
-              src="/public/login.png"
+              src="/login.png"
               alt="Login Page"
               className="w-full h-56 object-cover"
               loading="lazy"
@@ -220,7 +220,7 @@ export default function BookNGo() {
           </div>
           <div className="relative group bg-white shadow rounded-lg overflow-hidden">
             <img
-              src="/public/Signup.png"
+              src="/Signup.png"
               alt="Signup Page"
               className="w-full h-56 object-cover"
               loading="lazy"
@@ -240,7 +240,7 @@ export default function BookNGo() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           <div className="relative group bg-white shadow rounded-lg overflow-hidden">
             <img
-              src="/public/Admin_Home.png"
+              src="/Admin_Home.png"
               alt="Admin Home Page"
               className="w-full h-56 object-cover"
               loading="lazy"
@@ -253,7 +253,7 @@ export default function BookNGo() {
           </div>
           <div className="relative group bg-white shadow rounded-lg overflow-hidden">
             <img
-              src="/public/New_Event.png"
+              src="/New_Event.png"
               alt="New Event Form Page"
               className="w-full h-56 object-cover"
               loading="lazy"
@@ -266,7 +266,7 @@ export default function BookNGo() {
           </div>
           <div className="relative group bg-white shadow rounded-lg overflow-hidden">
             <img
-              src="/public/Admin_Status.png"
+              src="/Admin_Status.png"
               alt="All Bookings Page"
               className="w-full h-56 object-cover"
               loading="lazy"
@@ -286,7 +286,7 @@ export default function BookNGo() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           <div className="relative group bg-white shadow rounded-lg overflow-hidden">
             <img
-              src="/public/User_home.png"
+              src="/User_home.png"
               alt="User Home Page"
               className="w-full h-56 object-cover"
               loading="lazy"
@@ -299,7 +299,7 @@ export default function BookNGo() {
           </div>
           <div className="relative group bg-white shadow rounded-lg overflow-hidden">
             <img
-              src="/public/Prev_booking.png"
+              src="/Prev_booking.png"
               alt="My Previous Booking Page"
               className="w-full h-56 object-cover"
               loading="lazy"
@@ -313,7 +313,7 @@ export default function BookNGo() {
 
            <div className="relative group bg-white shadow rounded-lg overflow-hidden">
             <img
-              src="/public/Book_event.png"
+              src="/Book_event.png"
               alt="Success Page"
               className="w-full h-56 object-cover"
               loading="lazy"
@@ -329,7 +329,7 @@ export default function BookNGo() {
 
           <div className="relative group bg-white shadow rounded-lg overflow-hidden">
             <img
-              src="/public/Success.png"
+              src="/Success.png"
               alt="Success Page"
               className="w-full h-56 object-cover"
               loading="lazy"
